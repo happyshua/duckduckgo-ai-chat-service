@@ -1,5 +1,5 @@
-import { Hono } from "npm:hono";
-import { cors } from "npm:hono/middleware";
+import { Hono } from "npm:hono@3.12.0";
+import { cors } from "npm:hono@3.12.0/cors";
 
 import { chat } from "./src/api/chat.ts";
 import { models } from "./src/api/models.ts";
